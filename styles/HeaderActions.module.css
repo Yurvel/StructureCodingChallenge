@@ -1,0 +1,48 @@
+.headerMenu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.darkButton {
+  height: 45px;
+  padding: 11px 27px;
+  border: none;
+  border-radius: 8px;
+  background-color: #191919;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.darkButton:hover {
+  background-color: #424545;
+}
+
+.lightButton {
+  height: 45px;
+  padding: 11px 0;
+  border: none;
+  background-color: #ffffff;
+  color: #191919;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: text-decoration 0.5s;
+}
+.lightButton:hover {
+  text-decoration: underline;
+}
+
+.userAvatar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  font-weight: 500;
+}

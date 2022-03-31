@@ -1,0 +1,66 @@
+.asset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.leftPanel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rightPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+.mockRadio {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.assetInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.assetLabel {
+  width: 170px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #262626;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.assetCode {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #8a8a8a;
+}
+
+.assetPrice {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #262626;
+}
+
+.assetAmount {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #8a8a8a;
+}

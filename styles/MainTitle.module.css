@@ -1,0 +1,18 @@
+.title {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+}
+
+.titleLabel {
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 4px;
+  padding-left: 5px;
+}
+
+.titleCode {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 6px;
+}

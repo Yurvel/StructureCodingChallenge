@@ -1,0 +1,16 @@
+.lightButton {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #db5940;
+  padding: 17px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.lightButton:hover {
+  background-color: #f6f6f6;
+}

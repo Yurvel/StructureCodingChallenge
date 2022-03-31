@@ -1,0 +1,24 @@
+.trending {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action {
+  cursor: pointer;
+}
+.action:hover {
+  text-decoration: underline;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

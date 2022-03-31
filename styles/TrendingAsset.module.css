@@ -1,0 +1,49 @@
+.asset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.leftPanel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mockRadio {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.assetInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.assetLabel {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #262626;
+}
+
+.assetAmount {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #8a8a8a;
+}
+
+.changeInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.change {
+  color: #262626;
+}

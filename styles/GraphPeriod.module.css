@@ -1,0 +1,15 @@
+.activePeriod {
+  color: #191919;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.period {
+  color: #8a8a8a;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+.period:hover {
+  color: #424545;
+}

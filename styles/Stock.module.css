@@ -1,0 +1,82 @@
+.stock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.leftPanel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rightPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+.mockRadio {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #ebebeb;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.stockInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.stockLabel {
+  width: 170px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #262626;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.stockCode {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #8a8a8a;
+}
+
+.stockPrice {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #262626;
+}
+
+.upChange {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #5eb242;
+}
+
+.downChange {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #db5940;
+}
+
+.stockChange {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: right;
+  letter-spacing: -0.005em;
+  color: inherit;
+}

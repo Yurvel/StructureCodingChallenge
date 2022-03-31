@@ -1,0 +1,32 @@
+.amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.sign {
+  font-size: 28px;
+  line-height: 39px;
+}
+
+.amountInput {
+  border: none;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 42px;
+  letter-spacing: -0.035em;
+  padding: 0;
+}
+.amountInput:focus {
+  outline: none;
+}
+.amountInput::-webkit-outer-spin-button,
+.amountInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.amountInput[type='number'] {
+  -moz-appearance: textfield;
+}

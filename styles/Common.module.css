@@ -1,0 +1,21 @@
+.appContainer {
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.fullWidthDivider {
+  height: 1px;
+  width: 100%;
+  background-color: #edeff2;
+}
+
+.title {
+  color: #191919;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}

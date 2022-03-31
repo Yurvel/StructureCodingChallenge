@@ -1,0 +1,28 @@
+.operation,
+.selectedOperation {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.operation {
+  color: #8a8a8a;
+  transition: color 0.5s;
+}
+.operation:hover {
+  color: #424545;
+}
+
+.selectedOperation {
+  color: #262626;
+}
+.selectedOperation::after {
+  position: relative;
+  top: 2px;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #262626;
+}
